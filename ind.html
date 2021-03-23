@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>WebStudio Portfolio</title>
+    <style>
+        .header-container,
+        .nav-header,
+        .nav-list-header,
+        .contact-list-header {
+        display: flex;
+        }
+
+        .header-container {
+        justify-content: space-between;
+        }
+
+        .nav-header {
+        }
+
+        .nav-list-header {
+        width: 294px;
+        justify-content: space-between;
+        margin-left: 93px;
+        }
+
+        .contact-item-header:not(:last-child) {
+        margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="container header-container">
+            <nav class="nav-header">
+                <a href="./index.html" class="logo">Web<span class="logo-up">Studio</span></a>
+                <ul class="list nav-list-header">
+                    <li><a class="link nav-item-header" href="./index.html">Студия</a></li>
+                    <li><a class="link nav-item-header current" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="link nav-item-header" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="list contact-list-header">
+                <li><a class="link contact-item-header" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="link contact-item-header" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+        </div>
+    </header>
+
+</body>
+
+</html>
